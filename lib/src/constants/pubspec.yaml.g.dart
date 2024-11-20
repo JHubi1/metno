@@ -165,7 +165,8 @@ sealed class Pubspec {
   /// Think of the description as the sales pitch for your package.
   /// Users see it when they [browse for packages](https://pub.dev/packages).
   /// The description is plain text: no markdown or HTML.
-  static const String description = r'A wrapper for the Locationforecast weather api provided by the Norwegian Meteorological Institute.';
+  static const String description =
+      r'A wrapper for the Locationforecast weather api provided by the Norwegian Meteorological Institute.';
 
   /// Homepage
   ///
@@ -470,5 +471,4 @@ sealed class Pubspec {
     'dev_dependencies': devDependencies,
     'dependency_overrides': dependencyOverrides,
   };
-
 }
